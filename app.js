@@ -27,22 +27,6 @@ let mailServer = new Imap({
   console.log("Source Server Error:- ", err);
 });
 
-function getinbox() {}
-
-function openInbox(cb) {
-  mailServer.openBox("INBOX", true, cb);
-}
-
-mailServer.once("ready", function () {});
-
-mailServer.once("error", function (err) {
-  console.log(err);
-});
-
-mailServer.once("end", function () {
-  console.log("Connection ended");
-});
-
 mailServer.connect();
 
 module.exports = mailServer;

@@ -1,5 +1,5 @@
 From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
 To: erisoyemi@gmail.com
 Subject: Delivery Status Notification (Failure)
-Date: Wed, 06 Jan 2016 12:43:44 +0000
+
 
